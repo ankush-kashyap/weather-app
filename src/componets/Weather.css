@@ -9,6 +9,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
 
 .search {
@@ -76,4 +77,10 @@
 .weather-data .col img {
     width: 26px;
     margin-top: 10px;
+}
+.container h1 {
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    font-size: 15px;
 }

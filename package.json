@@ -1,4 +1,5 @@
 {
+  "homepage": " https://ankush-kashyap.github.io/weather-app",
   "name": "weather_app",
   "private": true,
   "version": "0.0.0",
@@ -7,7 +8,9 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^7.2.0",
